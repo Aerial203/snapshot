@@ -1,0 +1,15 @@
+.btn {
+    border: none;
+    height: 2.5rem;
+    width: 7rem;
+    background-color: #0A2647;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+

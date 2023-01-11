@@ -1,0 +1,46 @@
+.form-div {
+    width: 25rem;
+    padding: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.form-control {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-control input {
+    text-align: center;
+    margin: 0.5rem;
+    height: 2.5rem;
+    width: 18rem;
+    border-radius: 6px;
+    border: 0.1rem solid #181D31;
+}
+
+
+.form-control input:focus {
+    outline: none;
+    background: #E5E5CB;
+    border-color: #ffffff;
+  }
+
+.form-control.invalid input {
+    border-color: #DC0000;
+    background: #F9B5D0;
+  }
+  
+  .form-control.invalid label {
+    color: #DC0000;
+  }
