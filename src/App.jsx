@@ -45,9 +45,8 @@ function App() {
   }
   return (
     <div className="App">
-      {/* <Navigation isAddLogout={isValid} onLogout={handleLogout}/>
-      {!(isValid.username && isValid.password) ? <Login onGetData={loginHandler} isValid={isValid}/> : <Snapshot />} */}
-      <Snapshot />
+      <Navigation isAddLogout={isValid} onLogout={handleLogout}/>
+      {!(isValid.username && isValid.password) ? <Login onGetData={loginHandler} isValid={isValid}/> : <Snapshot />}
     </div>
   )
 }

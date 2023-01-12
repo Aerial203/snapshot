@@ -10,7 +10,17 @@
 }
 
 .search-btn {
+    border: none;
     height: 2.5rem;
     width: 3rem;
     margin: 2% 0;
+    background-color: #0A2647;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
 }
+ 
+ .search-btn:hover {
+    opacity: 0.9;
+ }
+ 

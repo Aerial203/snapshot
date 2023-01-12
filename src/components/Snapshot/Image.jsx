@@ -1,8 +1,12 @@
 import classes from "./Image.module.css"
 
-const Image = () => {
+const Image = (props) => {
+    const handleClick = () => {
+        console.log("clicked")
+    }
+
     return <div className={classes["img-div"]}>
-        <img src="https://www.w3schools.com/css/img_lights.jpg" alt="prof-img" className={classes.img}/>
+        <img src={props.url} alt={props.alt} className={classes.img} onClick={handleClick}/>
     </div>
 }
 
