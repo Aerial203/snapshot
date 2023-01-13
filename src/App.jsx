@@ -29,7 +29,7 @@ function App() {
     setIsValid(prevInp => {
       return {...prevInp, username: data.username.includes("@"), password: data.password.trim().length > 6, isFirst: false}
     })
-    if (data.username.includes("@") && data.password.trim().length > 6)  localStorage.setItem("isLoggedIn", "1")
+    if (data.username.includes("@") && data.password.trim().length > 7)  localStorage.setItem("isLoggedIn", "1")
   }
 
   const handleLogout = (e) => {

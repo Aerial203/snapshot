@@ -1,7 +1,7 @@
 .img-div{
     cursor: pointer;
     width: 95%;
-    height: 12rem;
+    height: 16rem;
     margin: 2%;
     padding: 2%
 }
@@ -11,8 +11,10 @@
     width: 100%;
     transform: scale(1, 1);
     transition: all 0.1s ease 0s;
+    box-shadow: 0 9px 7px 3px rgba(100, 100, 111, 0.2);
+    border-radius: 12px;
 }
 
 .img:hover {
-    transform: scale(1.05, 1.05);
+    transform: scale(1.06, 1.06);
 }

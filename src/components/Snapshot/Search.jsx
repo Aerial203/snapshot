@@ -24,7 +24,7 @@ const Search = (props) => {
 
     return <>
     <div className={classes["snapshot-search"]}>
-        <input type="text" placeholder="Search" onChange={handleInput} value={inputVal}/>
+        <input className={classes.input} type="text" placeholder="Search" onChange={handleInput} value={inputVal}/>
         <button className={classes["search-btn"]} onClick={handleClick}>&#x1F50D;</button>
     </div>
     <Gallery photoData={photoData}/>
